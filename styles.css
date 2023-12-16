@@ -1,88 +1,83 @@
-*{
+* {
     /* border: 1px solid black; */
     font-family: Roboto, sans-serif;
-}
-
-body {
+  }
+  
+  body {
     margin: 0;
-}
-
-/* HEADER */
-.header-container {
+  }
+  
+  /* HEADER */
+  .header-container {
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    background-color: #1F2937;
-    color: #F9FAF8
-}
-
-.link-container {
-    display: flex;
-    gap: 50px;
-    font-size: 19px;
-    color: #E5E7EB
-}
-
-
-.header-container li {
-    text-decoration: none;
+  }
+  
+  .header-container li {
     list-style-type: none;
-}
-
-.logo {
+    text-decoration: none;
+  }
+  
+  .link-container {
+    color: #E5E7EB;
+    display: flex;
+    font-size: 19px;
+    gap: 50px;
+  }
+  
+  .logo {
     font-size: 29px;
     font-weight: 950;
-}
-
-/* SECTION 1 */
-.section1-container {
-    padding: 80px 0px;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    color: #F9FAF8;
+  }
+  
+  /* SECTION 1 */
+  .section1-container {
     background-color: #1F2937;
-}
-
-.section1-container > * {
-    flex: 0 1 40%;
+    color: #F9FAF8;
     display: flex;
-
-}
-
-.section1-container .left-column {
+    font-size: 18px;
+    gap: 20px;
+    justify-content: center;
+    padding: 80px 0px;
+  }
+  
+  .section1-container > * {
+    display: flex;
+    flex: 0 1 40%;
+  }
+  
+  .section1-container .left-column {
     flex-direction: column;
-}
-
-.left-column > * {
+  }
+  
+  .left-column > * {
     margin: 5px;
-}
-
-.left-column h2 {
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.left-column p {
-    color: #E5E7EB;
-}
-
-.left-column button {
-    width: 120px;
-    height: 35px;
-    color: inherit;
-    font-weight: 700;
+  }
+  
+  .left-column button {
     background-color: #3882F6;
     border-radius: 8px;
+    color: inherit;
     font-size: inherit;
-}
-
-.placeholder-image {
-    background-color: grey;
+    font-weight: 700;
+    height: 35px;
+    width: 120px;
+  }
+  
+  .left-column h2 {
+    font-size: 48px;
+    font-weight: 900;
+  }
+  
+  .left-column p {
+    color: #E5E7EB;
+  }
+  
+  .placeholder-image {
     align-items: center;
+    background-color: grey;
     justify-content: center;
-}
-
-
-
+  }
