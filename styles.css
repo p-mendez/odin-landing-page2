@@ -1,0 +1,35 @@
+*{
+    /* border: 1px solid black; */
+    font-family: Roboto, sans-serif;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8
+}
+
+.link-container {
+    display: flex;
+    gap: 50px;
+    font-size: 19px;
+    color: #E5E7EB
+}
+
+
+.header-container li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logo {
+    font-size: 29px;
+    font-weight: 950;
+}
+
+
+
+
