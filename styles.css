@@ -205,6 +205,10 @@ li {
   width: 100px;
 }
 
+.section4 button:active {
+  background-color: #92bbfd;
+}
+
 .cta-title {
   font-size: 18px;
   font-weight: 800;
