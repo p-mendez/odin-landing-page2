@@ -218,3 +218,15 @@ li {
   font-size: 12px;
   font-weight: lighter;
 }
+
+/* FOOTER */
+.footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  padding: 15px 0;
+}
