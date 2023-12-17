@@ -127,3 +127,43 @@ li {
   text-align: center;
   width: 145px;
 }
+
+/* SECTION 3 */
+.section3 {
+  background-color: #E5E7EB;
+  margin: 0;
+}
+
+.section3-container,
+.quote-container {
+  display: flex;
+}
+
+.section3-container {
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.quote-container {
+  flex-direction: column;
+  width: 50%;
+}
+
+.quote-container > * {
+  margin: 0;
+}
+
+.quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.attribution {
+  align-self: flex-end;
+  color: #1F2937;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: right;
+}
